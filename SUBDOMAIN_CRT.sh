@@ -6,9 +6,9 @@ if [ $# -eq 0 ]; then
 fi
 
 for domain in "$@"; do
-	echo "Searching for: \"$1\""
+	echo "Searching for: \"$domain\""
 
-	curl -A 'Googlebot' -s 'https://crt.sh?q='$1'&output=json' \
+	curl -A 'Googlebot' -s 'https://crt.sh?q='$domain'&output=json' \
 		| jq .[].name_value \
 		| sed 's/\\n/\n/g' \
 		| sed 's/"//g' \
