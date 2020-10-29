@@ -1,5 +1,5 @@
 # BB_scripts
 Script for Bug Bounty
 
-### X-Forwarded.sh
+### 403-forbidden-bypass.sh
 ![IMAGE](https://i.imgur.com/seeKg5k.png)
