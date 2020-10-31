@@ -7,7 +7,7 @@ fi
 
 RESTORE=$(echo -en '\001\033[0m\002')
 GREEN=$(echo -en '\001\033[00;32m\002')
-FILE=/tmp/$RANDOM
+FILE=./out.html
 
 headers=(
 	"Forwarded: 127.0.0.1"
